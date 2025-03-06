@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MENSAJE "¡Hola Henry!\n"
+#define MENSAJE "VIva el vino"\n"
 
 int main() {
     printf(MENSAJE);
