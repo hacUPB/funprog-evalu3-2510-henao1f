@@ -20,5 +20,29 @@ int main() {
     switch(opcion) {
         case 1:
             resultado = numeroA + numeroB;
-            printf("\nResultado: %.2f + %.2f = %.2f\n", numemroA, numeroB, resultado);
+            printf("\nResultado: %.2f + %.2f = %.2f\n", numeroA, numeroB, resultado);
             break;
+
+        case 2:
+            resultado = numeroA - numneroB;
+            printf("\nResultado: %.2f - %.2f = %.2f\n ", numeroA, numeroB, resultado);
+            break;
+
+        case 3: 
+            resultado = numeroA * numeroB;
+            printf("\nResultado: %.2f * %.2f = %.2f\n", numeroA, numeroB, resultado);
+            break;
+
+        case 4:
+            if (numeroB !=0) {
+                Resultado = numeroA / numeroB;
+                printf("\nResultado: %.2f / %.2f = %.2f\n", numeroA, numeroB, resultado);
+            } else {
+                printf("Error:No se puede dividir entre cero.\n");
+            }
+    }
+    break;
+   default;
+        printf("\nOpcion no valida. vuelve a intentarlo.\n");
+    return 0;
+}
