@@ -2,7 +2,7 @@
 
 int main() {
     int opcion;
-    float muneroA, numnumeroB, resultado;
+    float muneroA, numeroB, resultado;
 
     printf("Ingrese el primer número: ");
     scanf("%f", &numeroA);
