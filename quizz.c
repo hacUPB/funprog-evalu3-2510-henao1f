@@ -9,7 +9,7 @@ int main() {
     printf("Ingresa tu número: "); // corregi "ingresa tu numero :"
     scanf("%d", &intento);  //corregi intento
 
-    while (intento != secreto) { // elimine el espacio en "! ="
+    while (intento != secreto) { // elimine el espacio en "! = "
         if (intento < secreto) {
             printf("El número es mayor, intenta de nuevo: ");
         } else {
